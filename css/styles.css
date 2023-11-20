@@ -1,0 +1,95 @@
+
+/* include this always in css probably */
+* { 
+  margin: 0; 
+  padding: 0; 
+ } 
+
+body { 
+  background-color: white;
+  margin: 0; 
+  padding: 0; 
+  text-align: center;
+  /* font-family: 'Roboto', arial; */
+  font-family: Arial, CenturyGothic, sans-serif;
+  /* font-size: 18px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* input, label {
+  display:block;
+} */
+
+.upper_section {
+  color: rgb(171, 33, 189);
+  /* background-color: rgb(255, 255, 255); */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* use this to change how big the rectange is */
+  /* padding: 150px; */
+  padding: 1.2rem;
+}
+
+.lower_section {
+  color: black;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/piercing_diamond6.png);
+  /* background-color: #3b065e; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* use this to change how big the rectange is */
+  /* padding: 150px; */
+  padding: 40rem;
+  position: relative;
+}
+
+.lower_section span {
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+
+/* section {
+  float:left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+} */
+
+/* footer{
+  padding: 0.2rem;
+  /* background-color: #0e0e0e; */
+  /* background-color: #0e0c0c; */
+  background-image: url(../img/piercing_diamond4.png);
+  color: rgb(103, 26, 26);
+} */
+
+a:link {
+  /* color: #fff; */
+  color:#124554;
+  /* padding-right: 20px; */
+}
+
+a:visited {
+  color: #124554;
+}
+
+/*
+a:hover {
+  background-color: purple;
+} */
