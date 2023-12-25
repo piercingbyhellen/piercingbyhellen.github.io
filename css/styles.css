@@ -10,8 +10,11 @@ body {
   margin: 0; 
   padding: 0; 
   text-align: center;
+  /* font-size: 555px; */
+  /* font-size: 55px; */
+  /* font-family: 'Fredericka the Great';  */
   /* font-family: 'Roboto', arial; */
-  font-family: Arial, CenturyGothic, sans-serif;
+  /* font-family: Arial, CenturyGothic, sans-serif; */
   /* font-size: 18px; */
 }
 
@@ -25,18 +28,56 @@ body {
 } */
 
 .upper_section {
-  color: rgb(171, 33, 189);
+  color: rgb(162, 182, 227);
   /* background-color: rgb(255, 255, 255); */
-  background-color: black;
+  /* background-color: rgb(137, 93, 157); */
+  background-color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-between;
   /* use this to change how big the rectange is */
   /* padding: 150px; */
-  padding: 1.2rem;
+  /* padding: 0.1rem; */
+  width: auto;
+  /* gap:15rem; */
 }
 
-.lower_section {
+
+.brand_container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-left:2rem;
+  /* margin-left: 5rem;
+  margin-right: 100rem; */
+  /* margin-right: 35rem; */
+}
+
+.navbar_container {
+  width: 27rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 3rem; */
+  color:black;
+  gap: 60px;
+}
+
+/* invisible third item to align the navbar the way we like it */
+.upper_section_third_item{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right:32rem;
+  /* margin-right:50rem; */
+}
+
+.second_section {
   color: black;
   /* background-color: blue; */
   display: flex;
@@ -49,16 +90,36 @@ body {
   background-size: cover;
   /* use this to change how big the rectange is */
   /* padding: 150px; */
-  padding: 40rem;
+  padding: 20rem;
   position: relative;
 }
 
-.lower_section span {
+.third_section_title
+.third_section_text1{
+  /* font-family: Fredericka the Great; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 55px;
+  /* font-style: normal;
+  font-weight: 400; */
+  font-family: 'Fredericka the Great';;
+  padding: 5.5rem;
+}
+
+.third_section_title
+.third_section_text2{
+  font-size: 35px;
+  /* font-style: normal;
+  font-weight: 400; */
+  font-family: 'Rubik Bubbles';
+  padding: 5.5rem;
+}
+
+/* .lower_section span {
   color: whitesmoke;
   position: absolute;
   bottom: 0;
   right:0;
-}
+} */
 
 
 /* section {
@@ -71,25 +132,19 @@ aside {
   width: 25%;
 } */
 
-/* footer{
-  padding: 0.2rem;
-  /* background-color: #0e0e0e; */
-  /* background-color: #0e0c0c; */
-  background-image: url(../img/piercing_diamond4.png);
-  color: rgb(103, 26, 26);
+/* a:link {
+  color: rgb(113, 115, 245);
+  font-family: overlock;
+  font-size: 30px;
+  color: rgb(113, 115, 245);
 } */
-
-a:link {
-  /* color: #fff; */
-  color:#124554;
-  /* padding-right: 20px; */
-}
-
-a:visited {
-  color: #124554;
-}
 
 /*
 a:hover {
   background-color: purple;
 } */
+
+a:link { color: cyan; font-size: 20px; font-family: Overlock, Helvetica, sans-serif, sans-serif; font-style: italic; font-weight: 700;}
+a:visited { text-decoration: none;  font-size: 20px; font-family: Overlock, Helvetica, sans-serif; font-style: italic; font-weight: 700;}
+a:hover { color: black}
+a:active { color: black}
